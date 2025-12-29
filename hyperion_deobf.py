@@ -2,11 +2,7 @@
 
 if __name__ != '__main__':exit()
 
-print(">>> Hyperion Deobf by KhanhNguyen9872")
-print(">>> FB: https://fb.me/khanh10a1")
-print("!! ĐÂY LÀ TOOL SHARE FREE TẠI GITHUB KHANHNGUYEN9872 !!")
-print("!! NẾU BẠN MUA TOOL NÀY TỪ MỘT AI ĐÓ, HỌ LÀ LỪA ĐẢO !!")
-print()
+print(">>> Hyperion Deobf")
 
 __builtins__.bbllaacckk_khanh_tokenize = __import__('tokenize')
 __builtins__.bbllaacckk_sieu_nhan_gao_den = __import__('os')
@@ -45,7 +41,7 @@ class bbllaacckk_KhanhNguyen9872:
                 folder = "." + folder
         return file_name,folder
     def get_license(file_name, bbllaacckk_day_la_binary):
-        return f"# Hyperion deobf by KhanhNguyen9872\n# FB: https://fb.me/khanh10a1\n# File name: [{file_name}.py] (".encode('utf8') + str('pyc' if bbllaacckk_day_la_binary else 'py').encode('utf8') + " - ".encode('utf8') + __builtins__.bbllaacckk_KhanhNguyen9872.get_py_ver().encode('utf8') + ")\n\n".encode('utf8')
+        return f"# Deobf by Thesmartcat2303\n# FB: https://www.facebook.com/Thesmartcat.2303\n# File name: [{file_name}.py] (".encode('utf8') + str('pyc' if bbllaacckk_day_la_binary else 'py').encode('utf8') + " - ".encode('utf8') + __builtins__.bbllaacckk_KhanhNguyen9872.get_py_ver().encode('utf8') + ")\n\n".encode('utf8')
     def get_code(self):
         return __builtins__.bbllaacckk_khanh_tokenize.untokenize(self.ntokens)
     def replace_var(self, target, var):
@@ -584,6 +580,6 @@ if __builtins__.bbllaacckk_ignore_var_by_khanh:
 # write file
 file_name, folder = __builtins__.bbllaacckk_KhanhNguyen9872.get_f_d(__builtins__.bbllaacckk_ten_cua_file_code_bi_ma_hoa_tum_lum)
 
-print(f'>> saving.... [ket_qua_cua_viec_dep_trai_{file_name}.py]')
-open(f'{folder}ket_qua_cua_viec_dep_trai_{file_name}.py','wb').write(__builtins__.bbllaacckk_KhanhNguyen9872.get_license(file_name, __builtins__.bbllaacckk_day_la_binary) + __builtins__.bbllaacckk_khanh_nguyen_9872)
+print(f'>> saving.... [deobf_{file_name}.py]')
+open(f'{folder}deobf_{file_name}.py','wb').write(__builtins__.bbllaacckk_KhanhNguyen9872.get_license(file_name, __builtins__.bbllaacckk_day_la_binary) + __builtins__.bbllaacckk_khanh_nguyen_9872)
 print(">> done!")
