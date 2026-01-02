@@ -230,6 +230,10 @@ while 1:
     if inp == "y":
         while 1:
             try:
+                file_list = [file_name for file_name in __import__('os').listdir(__import__('os').getcwd()) if file_name.endswith((".pyc", ".py", ".txt", ".exe"))]
+                for i, file_name in enumerate(file_list, start=1):
+                    print(" " + file_name + " ", end=" ")
+                    if i % 1 == 0:print()
                 __builtins__.bbllaacckk_ten_cua_file_code_bi_ma_hoa_tum_lum = input("<< Input full file Hyperion: ").replace("\"","")
                 __builtins__.bbllaacckk_sieu_nhan_gao_xanh = open(__builtins__.bbllaacckk_ten_cua_file_code_bi_ma_hoa_tum_lum, 'rb').read(4)
                 if b"\r\r\n" in __builtins__.bbllaacckk_sieu_nhan_gao_xanh:
@@ -254,6 +258,10 @@ while 1:
             if inp == "y":
                 while 1:
                     try:
+                        file_list = [file_name for file_name in __import__('os').listdir(__import__('os').getcwd()) if file_name.endswith((".pyc", ".py", ".txt", ".exe"))]
+                        for i, file_name in enumerate(file_list, start=1):
+                            print(" " + file_name + " ", end=" ")
+                            if i % 1 == 0:print()
                         __builtins__.bbllaacckk_ten_cua_file_code_bi_ma_hoa_tum_lum = input("<< Input full file Hyperion: ").replace("\"","")
                         __builtins__.bbllaacckk_sieu_nhan_gao_xanh = open(__builtins__.bbllaacckk_ten_cua_file_code_bi_ma_hoa_tum_lum, 'rb').read(4)
                         if b"\r\r\n" in __builtins__.bbllaacckk_sieu_nhan_gao_xanh:
@@ -278,6 +286,10 @@ while 1:
                 print("!! you must deobfuscate the first layer Hyperion into a file first!")
                 while 1:
                     try:
+                        file_list = [file_name for file_name in __import__('os').listdir(__import__('os').getcwd()) if file_name.endswith((".pyc", ".py", ".txt", ".exe"))]
+                        for i, file_name in enumerate(file_list, start=1):
+                            print(" " + file_name + " ", end=" ")
+                            if i % 1 == 0:print()
                         __builtins__.bbllaacckk_ten_cua_file_code_bi_ma_hoa_tum_lum = input("<< Input file code+vars (one file): ").replace("\"","")
                         __builtins__.bbllaacckk_sieu_nhan_gao_do = open(__builtins__.bbllaacckk_ten_cua_file_code_bi_ma_hoa_tum_lum, 'rb').read(1)
                         if int(__builtins__.bbllaacckk_sieu_nhan_gao_den.stat(__builtins__.bbllaacckk_ten_cua_file_code_bi_ma_hoa_tum_lum).st_size) > 524288000:
